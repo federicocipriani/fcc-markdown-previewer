@@ -9,14 +9,16 @@ var defaultText =
 ## Subheader
 ### Paragraph  
 
-\`<span></span>\`
+Here some inline code \`<span></span>\`
+
+And here some multiline code
 \`\`\`
 // This is a multiline code
 function hello() {
     console.log("Hello World!");
 }
 \`\`\`
-**Bold Text**
+Let\'s put some **bold text**
 
 Markdown in lists:
 * List 1 
