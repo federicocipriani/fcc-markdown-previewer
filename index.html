@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Markdown previewer</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <span class="title"><h1><i class="fa fa-pen fa-sm"></i> Editor</h1></span>
+            <textarea name="editor" id="editor" onkeyup="sync()"></textarea>
+        </div>
+        
+        <div class="container">
+            <span class="title"><h1><i class="fa fa-eye fa-sm"></i> Previewer</h1></span>
+            <div id="preview"></div>
+        </div>
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
